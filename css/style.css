@@ -406,22 +406,30 @@ body {
           align-items: center;
 }
 
-.product__cart a {
+.product__cart div {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   color: #F26376;
-  border: 1px solid #F26376;
-  padding: 15px 39px;
-  background-color: transparent;
-  text-decoration: none;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
 }
 
 .product__cart svg {
   margin-right: 23px;
+}
+
+.product__btn {
+  border: 1px solid #F26376;
+  padding: 15px 39px;
+  background-color: transparent;
+}
+
+.product__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .card-main--margin {

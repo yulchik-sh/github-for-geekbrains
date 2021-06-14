@@ -101,22 +101,28 @@
     justify-content: center;
     align-items: center;
     
-    & a {
+    & div {
         font-size: 16px;
         line-height: 19px;
         text-align: center;
         color: #F26376;
-        border: 1px solid #F26376;
-        padding: 15px 39px;
-        background-color: transparent;
-        text-decoration: none;
-        align-self: center;
     }
 
     & svg {
         margin-right: 23px;
     }
 
+}
+
+.product__btn {
+    border: 1px solid #F26376;
+    padding: 15px 39px;
+    background-color: transparent;
+}
+
+.product__flex {
+    display: flex;
+    justify-content: center;
 }
 
 .card-main--margin {
